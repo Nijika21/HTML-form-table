@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Ekstrakurikuler</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Ekstrakurikuler</h1>
+
+    <form>
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama">
+        <br><br>
+
+        <label for="kelas">Kelas</label>
+        <select id="kelas" name="kelas">
+            <option value="">-- Pilih Kelas --</option>
+            <option value="XII RPL 1">XII RPL 1</option>
+            <option value="XII RPL 2">XII RPL 2</option>
+            <option value="XII RPL 3">XII RPL 3</option>
+        </select>
+        <br><br>
+
+        <label>Jenis Kelamin</label>
+        <br>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label>
+        <input type="radio" id="helicopter" name="jenis_kelamin" value="helicopter">
+        <label for="helicopter">helicopter</label>
+        <br><br>
+
+        <label for="ekskul">Ekstrakurikuler</label>
+        <select id="ekskul" name="ekskul">
+            <option value="">-- Pilih Ekstrakurikuler --</option>
+            <option value="Web Programming">Web Programming</option>
+            <option value="Desain Grafis">Desain Grafis</option>
+            <option value="Robotika">Robotika</option>
+            <option value="Futsal">Futsal</option>
+        </select>
+        <br><br>
+
+        <label for="telepon">Nomor Telepon</label>
+        <input type="tel" id="telepon" name="telepon">
+        <br><br>
+
+        <label for="alasan">Alasan Mengikuti Ekstrakurikuler</label>
+        <br>
+        <textarea id="alasan" name="alasan" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Daftar">
+        <input type="reset" value="Reset">
+    </form>
+
+    <h2>Daftar Peserta Ekstrakurikuler</h2>
+
+    <table border="1">
+        <tr>
+            <th>Nomor</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Jenis Kelamin</th>
+            <th>Ekstrakurikuler</th>
+            <th>Nomor Telepon</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Andi Pratama</td>
+            <td>XII RPL 1</td>
+            <td>Laki-laki</td>
+            <td>Web Programming</td>
+            <td>081234567801</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Siti Nurhaliza</td>
+            <td>XII RPL 2</td>
+            <td>Perempuan</td>
+            <td>Desain Grafis</td>
+            <td>081234567802</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Budi Santoso</td>
+            <td>XII RPL 3</td>
+            <td>Laki-laki</td>
+            <td>Robotika</td>
+            <td>081234567803</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Dewi Lestari</td>
+            <td>XII RPL 1</td>
+            <td>Perempuan</td>
+            <td>Web Programming</td>
+            <td>081234567804</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Rizky Ramadhan</td>
+            <td>XII RPL 2</td>
+            <td>Laki-laki</td>
+            <td>Futsal</td>
+            <td>081234567805</td>
+        </tr>
+    </table>
+</body>
+</html>
